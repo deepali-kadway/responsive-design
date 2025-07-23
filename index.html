@@ -10,7 +10,21 @@
         height: 250px;
         background-image: url("aurora_s.jpg");
         background-repeat: no-repeat;
+        /*The keyword contain will resize the background image to make sure it remains fully visible*/
         background-size: contain;
+        }
+        /* Viewport is the visible area of the webpage*/
+        /*
+        1. 1px = 1/96th of an inch
+        2. 1em = 16px
+        3. 1rem = 16px
+        4. 1vw = 1% of the viewport width
+        5. 1vh = 1% of the viewport height
+        6. 1vmin = 1% of the viewport's smaller dimension
+        7. 1vmax = 1% of the viewport's larger dimension
+        */
+        h1{
+            font-size: 10vw; /* 10% of the viewport height */
         }
     </style>
 </head>
