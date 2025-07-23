@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Design</title>
+    <style>
+        .background_aurora {
+        width: 100%;
+        height: 250px;
+        background-image: url("aurora_s.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+    </style>
 </head>
 <body>
     <h1>Responsive Design</h1>
     <!-- We can use srcset attribute with multiple images with different resolutions -->
      <!-- Apple devices have 2x resolutions, also known as retina devices -->
-    <img src="aurora_s.jpg" srcset="aurora_m.jpg" 1920w>
+    <!-- <img src="aurora_s.jpg" srcset="aurora_m.jpg" 1920w> -->
+     <div class="background_aurora"></div>
 </body>
 </html>
